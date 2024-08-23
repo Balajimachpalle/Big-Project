@@ -17,6 +17,6 @@ const otpSchema= new mongoose.Schema({
 });
 
 // Schema ke bad model ke pahile , becausse of middleware
+//write here email send code
 
-
-module.exports=mongoose.model("otp",otpSchema);
+module.exports=mongoose.model("OTP",otpSchema);

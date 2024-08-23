@@ -45,6 +45,14 @@ const userSchema = new mongoose.Schema({
     courseProgress :{
         type:mongoose.Schema.Types.ObjectId,
         ref:"courseProgress"
+    },
+    contactNumber :{
+        type:Number,
+        required:true
+    },
+    confirmPassword :{
+        type:String,
+        required:true
     }
     
 });
